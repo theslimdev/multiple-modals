@@ -1,0 +1,47 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container {
+  margin: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  width: 75%;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.blog-modal,
+.blog-btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.project-modal,
+.project-btn {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+a {
+  background-color: #a1a1a1;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 5px;
+  color: #000000;
+}
