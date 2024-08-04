@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  margin: 50px;
+  width: 50%;
 }
 
 .overlay {
@@ -20,7 +20,7 @@ body {
 }
 
 .modal {
-  width: 75%;
+  width: 50%;
   padding: 40px;
   border-radius: 16px;
 }

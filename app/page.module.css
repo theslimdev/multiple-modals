@@ -4,7 +4,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+}
+
+.btns {
+  margin: 40px 0;
 }
 
 .description {
@@ -18,12 +22,12 @@
   font-family: var(--font-mono);
 }
 
-.description a {
+/* .description a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-}
+} */
 
 .description p {
   position: relative;

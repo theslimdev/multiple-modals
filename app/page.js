@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div>
+      <div className="container">
         <h1>Multiple Modals</h1>
         <div>
           <p>
@@ -17,7 +17,7 @@ export default function Home() {
             modal is open will redirect to the actual page of the content.
           </p>
         </div>
-        <div>
+        <div className={styles.btns}>
           <Link href="/projects/project-1" className="project-btn">
             Project One
           </Link>
